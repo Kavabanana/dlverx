@@ -1,0 +1,83 @@
+body{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    height: 120px;
+    width: 1440px;
+    justify-content: space-between;
+}
+
+.menu li{
+   display: inline-block;
+   list-style-type: none;
+   margin-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    text-decoration: none;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text{
+    width: 500px;
+}
+
+#oranzhevyj{
+    color: orangered ;
+}
+
+.text h1{
+    font-size: 50px;
+}
+
+.header button{
+    width: 247px;
+    height: 73px; 
+    background-color: orangered;
+    border
+}
+
+.items{
+    text-align: center;
+    margin: 50px 0px;
+
+}
+
+.main_items{
+    display: flex;
+    margin: 50px;
+}
+
+.frame{
+    display: flex;
+    height: 854px;
+    align-items: center;
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+}
+
+.frame button{
+    width: 206px;
+    height: 73px;
+    border-radius: 20px;
+    background-color: orangered;
+    color: #ffffff
+}
+
+.agusha{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    margin-top: 50px;
+}
